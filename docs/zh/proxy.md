@@ -28,6 +28,12 @@ dns:
   # ...
 ```
 
+## FlClash 与 Cloudflare CFPilot 的实测案例
+
+若开启系统代理时能联网、关闭系统代理后 VPN 连接失败，或开启 FlClash 后广告过滤变弱，可阅读 [完整排障记录与脚本用法](flclash-cfpilot.md)。该案例比较了 DNS/IP 与域名转发路径，并通过 CFPilot 专用扩展脚本启用域名嗅探、拒绝 UDP 443。
+
+该修复针对已验证的客户端路径，不要求修改模块运行代码，也不代表所有 Cloudflare 节点故障都由相同原因导致。TUN 地址应读取设备现状，不要把 `172.19.0.1` 当作 FlClash 固定地址。
+
 ## 相关
 
 - DNS 查询已经指向 AdGuardHome，但广告屏蔽仍不生效：见[常见问题](faq.md)

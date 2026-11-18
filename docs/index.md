@@ -16,6 +16,11 @@ The module requires a rooted Android device and works with Magisk, KernelSU and 
 | [常见问题](zh/faq.md) | [FAQ](en/faq.md) | 安装、密码、性能、拦截规则等高频问题 / Installation, password, performance, custom rules |
 | [开发与打包](zh/develop.md) | [Development and packaging](en/develop.md) | 目录结构、本地打包、CI 与发版、提交规范 / Layout, local packaging, CI, releases, commit style |
 
+## FlClash / CFPilot 实测补充
+
+- [AdGuardHomeForRoot、FlClash 与 CFPilot 共存排障记录](zh/flclash-cfpilot.md)：问题、有效修复、未证实判断、验证与回退步骤，供使用者及后续 AI 接手。
+- [CFPilot-FlClash 扩展脚本](examples/CFPilot-FlClash.js)：UDP 443 拒绝及 TLS/HTTP 域名嗅探。
+
 ## 相关链接 / Links
 
 - [更新日志 / Changelog](../changelog.md)

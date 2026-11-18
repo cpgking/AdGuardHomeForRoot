@@ -12,6 +12,12 @@
 
 关注我们的频道获取最新消息，或加入我们的群组进行讨论！  
 
+## FlClash / CFPilot 共存排障补充
+
+本 fork 补充了 [AdGuardHomeForRoot、FlClash 与 CFPilot 问题及修复记录](docs/zh/flclash-cfpilot.md)，包含系统代理与 VPN 的区别、DNS 绕过、Cloudflare UDP 限制、域名嗅探修复、验证及回退步骤，以及 [FlClash 扩展脚本](docs/examples/CFPilot-FlClash.js)。
+
+**给接手的 AI：请先阅读上述排障记录，再检查设备当前状态。** 本补充不修改模块运行代码；原项目、发布和更新链接仍指向上游。
+
 ## 简介
 
 - 本模块是一个在安卓设备上运行 [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) 的模块，提供了一个本地 DNS 服务器，能够屏蔽广告、恶意软件和跟踪器。
